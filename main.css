@@ -1,4 +1,4 @@
- {
+ * {
    box-sizing: border-box;
  }
 
@@ -10,9 +10,37 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  color: white;
+
 }
  footer {
    background-color: darkblue;
+ }
+
+ #inmemo {
+   display: flex;
+   align-items: center;
+   background-color: midnightblue;
+  flex-direction: column;
+  text-decoration-color: white;
+
+
+ }
+
+ header {
+   background-color: darkblue;
+   height: 10%;
+ }
+ ul {
+   list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: flex-end;
+    font-size: 30px;
+    color: gray;
+    font-family: monospace;
+    text-transform: uppercase;
  }
 
  /* .container {
